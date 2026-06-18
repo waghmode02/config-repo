@@ -2,6 +2,13 @@ spring:
   application:
     name: notification-service
 
+  kafka:
+    bootstrap-servers: localhost:9092
+
+notification:
+  topic:
+    name: order-notification
+
 server:
   port: 8084
 
