@@ -5,18 +5,6 @@ spring:
   kafka:
     bootstrap-servers: localhost:9092
 
-  mail:
-    host: smtp.gmail.com
-    port: 587
-    username: waghmodenagesh18@gmail.com
-    password: your_app_password_here
-    properties:
-      mail:
-        smtp:
-          auth: true
-          starttls:
-            enable: true
-
 notification:
   topic:
     name: order-notification
