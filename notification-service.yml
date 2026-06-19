@@ -11,6 +11,18 @@ notification:
 
 server:
   port: 8084
+spring:
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: waghmodenagesh18@gmail.com
+    password: Nagesh@1234
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true  
 
 eureka:
   client:
