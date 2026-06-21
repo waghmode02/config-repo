@@ -1,10 +1,4 @@
-server:
-  port: 8082
-
 spring:
-  application:
-    name: payment-service
-
   kafka:
     bootstrap-servers: localhost:9092
 
@@ -28,7 +22,3 @@ order:
 payment:
   topic:
     name: payment-topic
-
-logging:
-  level:
-    org.springframework.kafka: DEBUG
